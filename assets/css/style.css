@@ -1,0 +1,33 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    /* ---=== Color Pallet ===--- */
+
+    --color-dark: #272a31;
+    --color-orange: #ec5242;
+    --color-light: #d3d3d3;
+    --color-white: #f7f7f7;
+    --color-gray: #5e5e5e;
+
+    /* ---=== Typography ===--- */git
+
+    /* Font-Family */
+
+    --font-Cocogoose: 'COCOGOOSE', sans-serif;
+    --font-Lato: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
