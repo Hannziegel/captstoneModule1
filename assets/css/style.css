@@ -125,12 +125,6 @@ a {
   border: 1px solid var(--color-orange);
 }
 
-.line2 {
-  margin: 2vw 0 2vw 0;
-  width: 10%;
-  border-bottom: 1px solid #d3d3d3;
-}
-
 /* Social Profile Section */
 
 .menuIcon {
@@ -173,20 +167,12 @@ header {
 
 /* Headline Section */
 
-.headline .sectionContainer {
-  padding-top: 25vw;
-}
-
 .headline {
   flex-direction: column;
   padding: 0 0 10vh 0;
   background-image: url("/assets/imgs/background/mobile_intro_bg.png");
   background-size: cover;
   box-shadow: inset 0 0 1000px #d3d3d32c;
-}
-
-.headline .sectionContainer {
-  align-items: flex-start;
 }
 
 .headline h1 {
@@ -197,11 +183,6 @@ header {
 .headline span {
   color: var(--color-orange);
   font-size: var(--font-size-h2);
-}
-
-.headline p {
-  color: var(--color-dark);
-  font-weight: var(--font-weight-400);
 }
 
 .headlineP {
@@ -255,12 +236,6 @@ header {
   width: 80px;
 }
 
-.mainProgramCard p {
-  color: var(--color-light);
-  width: 120px;
-  height: 110px;
-}
-
 .mainProgram button {
   margin: 24px 34px;
   padding: 24px;
@@ -295,8 +270,8 @@ header {
 }
 
 .line2 {
-  margin: 5px 0 5px 0;
-  width: 15%;
+  margin: 2vw 0 2vw 0;
+  width: 10%;
   border-bottom: 1px solid #d3d3d3;
 }
 
@@ -311,12 +286,6 @@ header {
   font-style: italic;
   color: var(--color-orange);
   line-height: 1;
-}
-
-.speakerCardInfo p {
-  color: var(--color-dark);
-  font-size: var(--font-size-smaller);
-  width: 20%;
 }
 
 /* partners Section */
@@ -344,6 +313,11 @@ footer .sectionContainer {
   flex-direction: row;
 }
 
+.headline .sectionContainer {
+  padding-top: 25vw;
+  align-items: flex-start;
+}
+
 footer div {
   padding: 20px 10px;
 }
@@ -354,6 +328,22 @@ footer p {
   color: var(--color-gray);
 }
 
+.mainProgramCard p {
+  color: var(--color-light);
+  width: 120px;
+  height: 110px;
+}
+
+.speakerCardInfo p {
+  color: var(--color-dark);
+  font-size: var(--font-size-smaller);
+  width: 20%;
+}
+
+.headline p {
+  color: var(--color-dark);
+  font-weight: var(--font-weight-400);
+}
 .footerP {
   display: none;
   visibility: hidden;
@@ -447,10 +437,6 @@ footer p {
     background-image: url("/assets/imgs/background/main_big.png");
   }
 
-  .headline .sectionContainer {
-    padding-top: 10vw;
-  }
-
   .headline p {
     font-size: 1.5rem;
   }
@@ -458,6 +444,7 @@ footer p {
   .headlineP {
     max-width: 600px;
   }
+  
   /* mainProgram Section */
 
   .cardsContainer {
@@ -515,12 +502,15 @@ footer p {
     padding: 3vw 15vh;
   }
 
+  .headline .sectionContainer {
+    padding-top: 10vw;
+  }
+
   .footer p {
     font-size: 1.2rem;
   }
 
   .footerP {
-    display: contents;
     visibility: visible;
     padding-left: 30px;
     display: block;

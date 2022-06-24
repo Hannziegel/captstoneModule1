@@ -1,4 +1,5 @@
 @import url(./style.css);
+
 * {
   text-align: center;
 }
@@ -14,6 +15,10 @@ h1 {
 
 .headline .sectionContainer span {
   padding-bottom: 20px;
+}
+
+.about1 p {
+  margin-bottom: 10vh;
 }
 
 .headline .sectionContainer p {
@@ -37,10 +42,6 @@ h1 {
 }
 
 .about1 .sectionContainer {
-  margin-bottom: 10vh;
-}
-
-.about1 p {
   margin-bottom: 10vh;
 }
 

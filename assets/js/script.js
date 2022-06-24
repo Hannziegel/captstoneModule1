@@ -1,4 +1,4 @@
-/*    ------=========     Menu    =========------    */
+/*  ------=========     Menu    =========------   */
 
 function mobileMenu() {
   document.querySelector('HEADER').classList.toggle('header-menu');
@@ -101,36 +101,35 @@ wolvesSpeakers.appendChild(sectionContainer);
 sectionContainer.append(
   wolvesSpeakersTitleh2,
   wolvesSpeakersLine,
-  speakersContainer
+  speakersContainer,
 );
 
 projectData.forEach((element, index) => {
-  console.log(index);
-  //Create Speakers Card with img, cardInfo div, h3, h4, line, p
+// Create Speakers Card with img, cardInfo div, h3, h4, line, p
 
   const speakersCard = document.createElement('div');
-  let speakersImg = document.createElement('img');
+  const speakersImg = document.createElement('img');
   const speakersCardInfo = document.createElement('div');
-  let speakersh3 = document.createElement('h3');
-  let speakersh4 = document.createElement('h4');
+  const speakersh3 = document.createElement('h3');
+  const speakersh4 = document.createElement('h4');
   const speakersLine = document.createElement('div');
   let speakersP = document.createElement('p');
 
-  //Add classes and ids
+  // Add classes and ids
 
   speakersCard.classList.add('speakerCard');
   speakersCardInfo.classList.add('speakerCardInfo');
   speakersLine.classList.add('line2');
   speakersCard.id = index;
 
-  //Add content
+  // Add content
 
   speakersImg.src = element.profileImage;
   speakersh3.textContent = element.name;
   speakersh4.textContent = element.background;
   speakersP = element.description;
 
-  //Append elements
+  // Append elements
 
   speakersContainer.appendChild(speakersCard);
   speakersCard.append(speakersImg, speakersCardInfo);
