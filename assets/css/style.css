@@ -142,6 +142,11 @@ a {
   width: 16vw;
 }
 
+.headerLogo:hover {
+  transform:scale(.9);
+  transition-duration: 2s;
+}
+
 .headerLogo img {
   width: 100%;
 }
@@ -229,6 +234,11 @@ header {
   background-color: #5e5e5e5e;
   padding: 10px;
   gap: 10px;
+}
+
+.mainProgramCard:hover {
+  border: 2px solid #fff;
+  transition: 1.5s;
 }
 
 .mainProgramCard h3 {
@@ -369,6 +379,18 @@ footer p {
   display: none;
 }
 
+#title {
+  background: url('../imgs/background/backgroundText.png') 0 0 / cover no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: animateText 7s linear infinite alternate;
+}
+
+@keyframes animateText {
+  70% {background-position: center;}
+}
+
 @media screen and (min-width: 768px) {
   h2 {
     margin-top: 5vh;
@@ -426,12 +448,22 @@ footer p {
     align-self: center;
   }
 
+  header .sectionContainer a:hover {
+    color: var(--color-orange);
+  }
+
   header .sectionContainer .navButton {
     padding: 12px;
     color: var(--color-orange);
     border: 5px solid var(--color-orange);
     align-self: center;
     font-size: 1.5rem;
+  }
+
+  header .sectionContainer .navButton:hover {
+    background-color: var(--color-orange);
+    color: #fff;
+    transition-duration: 1.5s;
   }
 
   .headline {
@@ -460,6 +492,7 @@ footer p {
     gap: 2vh;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
   }
 
   .mainProgramCard p {
