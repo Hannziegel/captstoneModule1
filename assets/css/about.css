@@ -1,0 +1,147 @@
+@import url(./style.css);
+* {
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+.headline .sectionContainer {
+  align-items: center;
+  gap: 12px;
+}
+
+.headline .sectionContainer span {
+  padding-bottom: 20px;
+}
+
+.headline .sectionContainer p {
+  color: var(--color-gray);
+  font-size: var(--font-size-small);
+}
+
+.headlineP {
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 2px 2px rgba(119, 118, 118, 0.185);
+  border: none;
+  border-radius: 1%;
+  margin-bottom: 10px;
+  padding: 12px;
+  color: var(--color-gray);
+}
+
+.headline .sectionContainer .email {
+  color: black;
+  text-decoration: underline;
+}
+
+.about1 .sectionContainer {
+  margin-bottom: 10vh;
+}
+
+.about1 p {
+  margin-bottom: 10vh;
+}
+
+.about1 .about1img {
+  border: 1px solid var(--color-gray);
+  padding: 5vh 10vw;
+}
+
+.gallery .sectionContainer {
+  gap: 12px;
+  margin-bottom: 10vh;
+  border-top: 1px solid rgba(109, 109, 109, 0.432);
+}
+
+.gallery .sectionContainer p {
+  margin-bottom: 5vh;
+}
+
+.photoGalleryContainer {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.gallery .sectionContainer .photoGallery {
+  color: #fff;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery .sectionContainer .photoGalleryContainer .photoGallery .mask {
+  background-color: #b11200bb;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery .sectionContainer .photoGalleryContainer .photoGallery h3 {
+  font-size: var(--font-size-h1);
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.gallery .sectionContainer .photoGalleryContainer .photoGallery p {
+  font-weight: 400;
+}
+
+#first {
+  background-image: url("../imgs/speakers/wolves1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#second {
+  background-image: url("../imgs/speakers/wolves2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .headline .sectionContainer span {
+    display: none;
+    visibility: hidden;
+  }
+
+  .headline .sectionContainer .headlineP {
+    font-size: 1.3rem;
+  }
+
+  .photoGalleryContainer {
+    flex-direction: row;
+  }
+
+  .gallery .sectionContainer .photoGallery {
+    width: 45vw;
+    height: 45vh;
+  }
+
+  .gallery .sectionContainer .photoGalleryContainer .photoGallery .mask {
+    width: 45vw;
+    height: 45vh;
+  }
+
+  .partners {
+    display: none;
+    visibility: hidden;
+  }
+
+  footer {
+    background-color: var(--color-dark);
+  }
+
+  footer * {
+    text-align: left;
+  }
+
+  .footer p {
+    color: #fff;
+  }
+}
