@@ -170,6 +170,10 @@ header {
   padding: 12px;
 }
 
+.navbar a:hover {
+  color: var(--color-orange);
+}
+
 /* Headline Section */
 
 .headline {

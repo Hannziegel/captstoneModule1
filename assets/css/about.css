@@ -48,6 +48,11 @@ h1 {
 .about1 .about1img {
   border: 1px solid var(--color-gray);
   padding: 5vh 10vw;
+  width: 90vw;
+}
+
+.about1 .about1img img {
+  width: 100%;
 }
 
 .gallery .sectionContainer {
