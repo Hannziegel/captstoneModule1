@@ -344,6 +344,7 @@ footer p {
   color: var(--color-dark);
   font-weight: var(--font-weight-400);
 }
+
 .footerP {
   display: none;
   visibility: hidden;
@@ -444,7 +445,7 @@ footer p {
   .headlineP {
     max-width: 600px;
   }
-  
+
   /* mainProgram Section */
 
   .cardsContainer {
