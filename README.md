@@ -12,7 +12,7 @@
 
 ## Live Demo 
 
-[Live Demo Link]()
+[Live Demo](https://hannziegel.github.io/captstoneModule1/)
 ## Getting Started
 Clone the repository or use the code button on the right to download the zip file of the project, unzip it and open the index.html file in the browser
 
