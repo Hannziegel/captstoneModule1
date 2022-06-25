@@ -107,7 +107,7 @@ sectionContainer.append(
 projectData.forEach((element, index) => {
 // Create Speakers Card with img, cardInfo div, h3, h4, line, p
 
-  const speakersCard = document.createElement('div');
+  const speakersCard = document.createElement('article');
   const speakersImg = document.createElement('img');
   const speakersCardInfo = document.createElement('div');
   const speakersh3 = document.createElement('h3');
